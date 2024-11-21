@@ -41,7 +41,7 @@ public class Main {
                                     .build();
                         }
                         storage.addOrder(order);
-                        System.out.println("Added order: " + order.getName() + "\n"); // Добавляем перенос строки
+                        System.out.println("Added order: " + order.getName() + "\n");
                     }
                 } catch (InterruptedException e) {
                     Thread.currentThread().interrupt();
