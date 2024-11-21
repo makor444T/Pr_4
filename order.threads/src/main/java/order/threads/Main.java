@@ -63,7 +63,7 @@ public class Main {
                         }
                     }
                     processor.processOrders(order ->
-                            System.out.println("Processed order: " + order.getName() + "\n") // Добавляем перенос строки
+                            System.out.println("Processed order...: " + order.getName() + "\n")
                     );
                     try {
                         Thread.sleep(500);
